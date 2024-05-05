@@ -1,4 +1,5 @@
-![Image Description](public/image/to-do-list.png)
+<img src="public/image/to-do-list.png" alt="Image Description" width="200">
+
 
 
 # ExpressTask
