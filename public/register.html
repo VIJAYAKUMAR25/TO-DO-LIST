@@ -1,0 +1,67 @@
+
+
+<div class="container h-100 ">
+  <div class="register-main rounded-5 p-5" >
+    <div class="register-container row">
+      <div class="col-12">
+        <h1 class=" bi bi-person-fill text-center mb-3" >Register</h1>
+      </div>
+    </div>
+    <div class=" row">
+      <div class="register-container col-12 col-lg-6">
+        <dl>
+          <dt class="form-label">UserId</dt>
+          <dd><input type="text" class="form-control" id="RuserId" placeholder="Enter UserId" autofocus/></dd>
+          <dd class="text-danger fs-4 fw-bold" id="RUsererror"></dd>
+          <dt class="form-label">Email</dt>
+          <dd><input type="text" class="form-control" id="Remail" placeholder="Enter Email"/></dd>
+          <dd class="text-danger fs-4 fw-bold" id="REmailerror"></dd>
+          <dt>Gender</dt>
+          <dd class="d-flex justify-content-around fs-4 fw-bold mt-2">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="radio" name="gender" id="other" value="other">
+              <label class="form-check-label" for="other">Other</label>
+            </div>
+          </dd>
+          <dd class="text-danger fs-4 fw-bold" id="RGendererror"></dd>
+      </div>
+      <div class="register-container col-12 col-lg-6">
+        <dl>
+          <dt class="form-label">Password</dt>
+          <dd >
+            <input type="password" class=" form-control" id="Rpassword" placeholder="Enter password"/>
+          </dd>
+          <dd class="text-danger fs-4 fw-bold" id="RPassworderror"></dd>
+          <dt class="form-label">Confirm Password</dt>
+          <dd><input type="password" class="form-control" id="Rcpassword" placeholder="Enter Confirm Password"/></dd>
+          <dd class="text-danger fs-4 fw-bold" id="RCpassworderror"></dd>
+          <dt>Date Of Birth</dt>
+          <dd><input type="date" id="Rdob" class="form-control"/></dd>
+          <dd class="text-danger fs-4 fw-bold" id="RDOBerror"></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center my-3">
+        <button class="button w-50 bg-primary" id="RbtnRegister"><span>Register</span></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-around">
+        <button class="btn btn-link bi bi-arrow-left fs-3 fw-bold" id="btnBackNav">Back</button>
+        <button class="btn btn-link fs-3 fw-bold" id="btnNavLogin">Log-In</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

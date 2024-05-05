@@ -1,0 +1,41 @@
+
+<div class="container w-100">
+    <div class="card p-5 rounded-5 bg-light">
+        <div class="card-header text-center">
+            <div class="card-title bi bi-plus fw-bold text-primary h1">Add Task</div>
+        </div>
+        <div class="card-body">
+            <dl>
+                <dt class="form-label fs-3">Task Title</dt>
+                <dd> <input type="text" class="form-control" id="Atitle" autofocus/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Atitleerror"></dd>
+                <dd><input type="number" class="form-control" id="Aid" hidden/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Aiderror"></dd>
+                <dt class="form-label fs-3">Task Priority</dt>
+                <dd>
+                    <select class="form-select bg-secondary text-white" id="Apriority">
+                        <option value="-1" >Select Priority Level</option>
+                        <option value="low priority" >Low priority</option>
+                        <option value="medium Priority" >Medium Priority</option>
+                        <option value="high priority" >High Priority</option>
+                    </select>
+                </dd>
+                <dd class="text-danger fs-4 fw-bold" id="Apriorityerror"></dd>
+                <dt class="form-label fs-3">Due Date</dt>
+                <dd><input type="date" class="form-control " id="Adate"/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Adateerror"></dd>
+                <dt class="form-label fs-3">Task Description</dt>
+                <dd>
+                    <textarea  class="form-control" id="Adescription" cols="25" rows="5" placeholder="Enter Task Description"></textarea>
+                </dd>
+                <dd class="text-danger fs-4 fw-bold" id="Adescriptionerror"></dd>
+            </dl>
+        </div>
+        <div class="card-footer py-3">
+            <div class="text-center">
+                <button class="button bg-success" id="btnAddNewTask"> Add Task</button>
+            </div>
+        </div>
+    </div>
+</div>
+

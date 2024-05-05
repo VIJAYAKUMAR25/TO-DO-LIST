@@ -1,0 +1,40 @@
+
+<div class="container w-75">
+    <div class="card p-5 rounded-5 bg-light">
+        <div class="card-header text-center">
+            <div class="card-title bi bi-pen-fill fw-bold text-primary h1">Edit Task</div>
+        </div>
+        <div class="card-body">
+            <dl>
+                <dt class="form-label fs-3">Task Title</dt>
+                <dd> <input type="text" class="form-control" id="Etitle" autofocus/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Etittleerror"></dd>
+                <dd><input type="number" class="form-control" id="Eid" hidden/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Eiderror"></dd>
+                <dt class="form-label fs-3">Task Priority</dt>
+                <dd>
+                    <select class="form-select" id="Epriority">
+                        <option value="-1">Select Priority Level</option>
+                        <option value="low priority">Low priority</option>
+                        <option value="medium Priority">Medium Priority</option>
+                        <option value="high priority">High Priority</option>
+                    </select>
+                </dd>
+                <dd class="text-danger fs-4 fw-bold" id="Epriorityerror"></dd>
+                <dt class="form-label fs-3">Due Date</dt>
+                <dd><input type="date" class="form-control" id="Edate"/></dd>
+                <dd class="text-danger fs-4 fw-bold" id="Edateerror"></dd>
+                <dt class="form-label fs-3">Task Description</dt>
+                <dd>
+                    <textarea  class="form-control" id="Edescription" cols="25" rows="5" placeholder="Enter Task Description"></textarea>
+                </dd>
+                <dd class="text-danger fs-4 fw-bold" id="Edescriptionerror"></dd>
+            </dl>
+        </div>
+        <div class="card-footer py-3">
+            <div class="text-center">
+                <button class="button bg-success bi bi-floppy-fill" id="btnSave" > Save</button>
+            </div>
+        </div>
+    </div>
+</div>

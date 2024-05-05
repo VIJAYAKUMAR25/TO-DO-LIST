@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskBuddy</title>
+    <link rel="icon" href="./image/logo.png" />
+    <style type="text/css"></style>
+  </head>
+  <body class="container-fluid">
+    <header>
+      <nav class="navbar  sticky-top">
+        <div class="container-fluid ms-5">
+          <a class="navbar-brand" href="#">
+            <span id="logo" class="d-inline-block">
+              <img src="../image/title-logo.png"alt="Logo"width="30"height="30" class="d-inline-block me-3 mb-2"/>
+              TaskBuddy
+            </span>
+          </a>
+        </div>
+      </nav>
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+              <div class="text-area col-12 col-lg-4">
+                <div class="mt-5">
+                  <h1 class="fw-bold">
+                    Start your journey towards success with our dynamic
+                    <font color="#e16162">Task Buddy.</font>
+                  </h1>
+                  <div class="d-flex justify-content-center mt-5">
+                    <button class="button"  data-bs-toggle="modal" data-bs-target="#calendar">
+                      <span class="bi bi-calendar-date d-inline-block me-2"> </span>
+                      <span>CALENDAR</span>
+                    </button>
+                    <div class="modal fade mt-5" id="calendar" tabindex="-1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-1 fw-bold" id="exampleModalLabel"style="color: #001e1d" >
+                              Calendar
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body d-flex justify-content-center align-items-center">
+                            <div class="calendar">
+                              <div class="month">
+                                <i class="bi bi-chevron-left prev fs-3"></i>
+                                <div class="date">
+                                  <h1></h1>
+                                  <p></p>
+                                </div>
+                                <i class="bi bi-chevron-right next fs-3"></i>
+                              </div>
+                              <div class="weekdays">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                              </div>
+                              <div class="days"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <main class="img-container col-12 col-lg-8">
+                  <div class=" d-flex justify-content-center align-items-center bg-secondary p-2 rounded-5 ">
+                      <img src="./image/undraw_trip_re_f724.svg" alt="Todo Banner" id="todo-banner" >
+                  </div>
+                  <div class="btn-container  ms-4">
+                      <button class="button me-5 mt-5" id="btnHomeRegister">
+                        <span>GET STARTED</span>
+                      </button>
+                      <button class="button mt-5" id="btnHomeLogin">
+                        <span>MEMBER LOGIN</span>
+                      </button>
+                  </div>
+              </main>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
